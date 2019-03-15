@@ -55,12 +55,12 @@ function brewer() {
 
 function dmginstall() {
     # install caffeine
-    hdiutil attach $HOME/.macos/dmg/Caffeine.dmg
+    hdiutil attach $HOME/dotfiles/dmg/Caffeine.dmg
     cp -r /Volumes/Caffeine/Caffeine.app /Applications/Caffeine.app
     hdiutil detach /Volumes/Caffeine
 
     # install AudioInjectorX
-    hdiutil attach $HOME/.macos/dmg/AudioInjectorX.dmg
+    hdiutil attach $HOME/dotfiles/dmg/AudioInjectorX.dmg
     cp -r /Volumes/AudioInjectorX/AudioInjectorX.app /Applications/AudioInjectorX.app
     cp /Volumes/AudioInjectorX/2hz.aif $HOME/Library/Sounds/2hz.aif
     hdiutil detach /Volumes/AudioInjectorX
