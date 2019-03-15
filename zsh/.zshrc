@@ -10,10 +10,10 @@ do
   source $file
 done
 
-# Make sure to source this file in order to recieve any updates if necessary
-source $ZSH/oh-my-zsh.sh
-
 # Set the theme
 # Note, we must change the font to powerline to work
 # I prefer IBM 3270 14pt (Typeface=Medium)
 ZSH_THEME="agnoster"
+
+# Make sure to source this file in order to recieve any updates if necessary
+source $ZSH/oh-my-zsh.sh
