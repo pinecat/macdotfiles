@@ -14,4 +14,5 @@ export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
 # export zsh paths
 export ZSH="/Users/rory/.oh-my-zsh"
 
-fpath=(/usr/local/share/zsh-completions $fpath)
+# core utils
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH"

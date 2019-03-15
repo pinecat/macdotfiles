@@ -13,8 +13,8 @@ git pull origin master
 function bootstrapper() {
     cd ~/dotfiles/
     ./linker.sh -f
-    ./envsetup.sh
     ./brew.sh
+    ./envsetup.sh
     ./macpref.sh
 }
 

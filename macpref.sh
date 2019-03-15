@@ -70,7 +70,7 @@ defaults write NSGlobalDomain NSAutomaticQuoteSubstitutionEnabled -bool false
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Set wallpaper
-sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '$HOME/.macos/wallpaper.jpg'";
+sqlite3 ~/Library/Application\ Support/Dock/desktoppicture.db "update data set value = '$HOME/dotfiles/misc/wallpaper.jpg'";
 
 # set local user profile pic
 CUR_USR=$USER
@@ -78,7 +78,7 @@ CUR_USR_HOME=$HOME
 
 sudo dscl . delete /Users/$CUR_USR jpegphoto
 sudo dscl . delete /Users/$CUR_USR Picture
-sudo dscl . create /Users/$CUR_USR Picture "$CUR_USR_HOME/.macos/profile.png"
+sudo dscl . create /Users/$CUR_USR Picture "$CUR_USR_HOME/dotfiles/misc/profile.png"
 
 unset CUR_USR
 unset CUR_USR_HOME
