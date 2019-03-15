@@ -15,5 +15,8 @@ done
 # I prefer IBM 3270 14pt (Typeface=Medium)
 ZSH_THEME="agnoster"
 
+# configure plugins
+plugins=(git zsh-autosuggestions)
+
 # Make sure to source this file in order to recieve any updates if necessary
 source $ZSH/oh-my-zsh.sh
