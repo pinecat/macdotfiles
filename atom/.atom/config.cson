@@ -1,0 +1,11 @@
+"*":
+  core:
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+  editor:
+    scrollPastEnd: true
+    tabLength: 4
+  "exception-reporting":
+    userId: "74ee7391-372d-4e93-822f-18486d47e9d3"
+  welcome:
+    showOnStartup: false
