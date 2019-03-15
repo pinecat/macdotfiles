@@ -11,7 +11,7 @@ printf "##############################\n"
 git pull origin master
 
 function bootstrapper() {
-    cd ~
+    cd ~/dotfiles/
     ./linker.sh -f
     ./envsetup.sh
     ./brew.sh
