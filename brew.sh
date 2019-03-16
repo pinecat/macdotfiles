@@ -50,7 +50,7 @@ function brewer() {
     brew cask install vlc
     brew cask install steam
     brew cask install eclipse-java
-    brew cask install sourctree
+    brew cask install sourcetree
 }
 
 function dmginstall() {
